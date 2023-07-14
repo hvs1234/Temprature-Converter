@@ -1,0 +1,82 @@
+body{background: linear-gradient(to right,rgb(145, 145, 23),rgb(206, 206, 50),yellow); 
+font-family: 'Dosis' , sans-serif;}
+
+.container
+{
+    border: 1px solid rgb(145, 145, 23);
+    box-shadow: 10px 10px 2px rgb(51, 47, 47);
+    background: linear-gradient(to right,rgb(209, 101, 89),rgb(230, 141, 132),rgb(247, 179, 171));
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 40px;
+    height: 550px;
+    align-items: center;
+
+}
+
+.container h1
+{
+    font-size: 3.5em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+.container input,select
+{
+    margin-top: 10px;
+    box-shadow: 5px 5px 2px rgb(58, 53, 53);
+}
+.container input
+{
+    font-size: 1.5em;
+    border-radius: 20px;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: rgb(5, 71, 3);
+    border: 2px solid black;
+    font-family: 'Dosis' , sans-serif;
+    letter-spacing: 5px;
+    width: 15%;
+}
+.container select
+{
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 1.5em;
+    border: 2px solid black;
+    font-weight: bold;
+    font-family: 'Dosis' , sans-serif;
+    letter-spacing: 3px;
+    margin-left: 100px;
+}
+#go
+{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 720px;
+    background: linear-gradient(to right,rgb(83, 17, 56),rgb(145, 21, 93),rgb(255, 0, 149));
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Dosis' , sans-serif;
+    font-weight: bold;
+    padding: 20px 80px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(167, 154, 154);
+}
+.container button:hover
+{
+    cursor: pointer;
+    background: linear-gradient(to right,rgb(94, 21, 109),rgb(109, 21, 117)rgb(240, 46, 159));
+}
+.container span
+{
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: -60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
